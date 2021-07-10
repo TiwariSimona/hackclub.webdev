@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    background-color: rgba(185, 155, 155, 0.459);
 }
 
 body{
@@ -10,9 +11,9 @@ body{
 }
 
 .container{
-    background: color #f2f2f2;
+    background: color #c2707070;
     padding: 5px 20px 15px 20px;
-    border: 1px grey;
+    border: 1px;
     border-radius: 4px;
 }
 
@@ -25,13 +26,13 @@ select,
 textarea{
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(141, 24, 24, 0.911);
     border-radius: 5px;
     margin: 10px;
 }
 
 fieldset{
-    background-color: #ccc;
+    /*background-color: #ccc;*/
     border: 1px #ccc  ;
 }
 
@@ -40,7 +41,7 @@ fieldset{
 }
 
 input[type="submit"]{
-    background-color: grey;
+    background-color: rgba(199, 236, 236, 0.726);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -50,5 +51,5 @@ input[type="submit"]{
 }
 
 input[type="submit"]{
-    background-color: #4caf84;
+    background-color: #4caf84af;
 }
